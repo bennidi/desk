@@ -54,7 +54,7 @@ Having clear documentation will also help a lot when you have to make changes to
 
 # Why is documentation neglected so much?
 
-There are definitely many reasons why documentation is neglected and it is certainly impossible to provide a complete list but here is my try to enumerate the most important ones. I also think that there are two primary actors responsible which you can see classified in the model below.
+There are definitely many reasons why documentation is neglected. Here is my proposition:
 
 1. Documentation appears to be generally not considered part of the solution to a specific programming problem. Assuming that (most) developers are interested in designing solutions for complex problems this means that as soon as the program is written and the solution is found, they want to move on to the next problem
 2. He who should or could write documentation is usually not part of the group interested in reading it. In other words, the people who benefit from documentation are not the ones who write it and the ones who have to write it don't get any benefit out of it
@@ -64,17 +64,9 @@ There are definitely many reasons why documentation is neglected and it is certa
 6. The management (and thus the process) is often focussed on short term benefits, whereas documentation shows its value only on mid or long term scale
 7. Documentation becomes stale easily and is not of much value when stale. This generally hints to the lack of good tooling to support durable, high-quality documentation
  
+I also think that there are two primary actors involved in documentation:
 
-## Responsibilities
-
-programmer                                                                     management/process
-
-- – - – - – - – - – - – - – - – - – - – - – - – - – - – | – - – - – - – - – - – - – - – - – - – - – - – - – - – -
-
-(3)                                         (2)        (1)                                                     (5)
-
-(4)                                                                                                            (6)
-
+[Developer]--(3,4)------------(2)-----(1)------------------(5,6)--[Management/Process]
 
 # How to improve?
 
